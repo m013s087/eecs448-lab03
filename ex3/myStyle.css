@@ -1,4 +1,24 @@
 p
 {
-    background-color: blue;
+    background-color: rgb(141, 141, 251);
+    font-size: 14pt;
+    color: rgb(116, 17, 17);
+}
+
+p:hover
+{
+    font-size: 28pt
+}
+
+p.section_header
+{
+    font-size: 30pt
+}
+
+
+body 
+{
+    background-image: url(images.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }

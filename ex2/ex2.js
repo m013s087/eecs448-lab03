@@ -1,12 +1,12 @@
 "use strict"
-let total = 5;
 let now = 1;
-let img = Document.getElementById("pic");
-let text = ["Image 1","Image 2","Image 3","Image 4","Image 5"];
-img.src="img1.jpeg";
+let slide = Document.getElementById("pic");
+let val = ["img1.jpeg","img2.png","img3.jpg","img4.jpg","img5.png"]
+let total = val.length
 function next()
 {
-	if(now === total)
+	
+	if(now == total)
 	{
 		now = 1;
 	}
@@ -19,9 +19,9 @@ function next()
 
 function prev()
 {
-	if(now === 1)
+	if(now == 1)
 	{
-		now = total;
+		now =  total;
 	}
 	else
 	{
@@ -32,6 +32,6 @@ function prev()
 
 function change()
 {
-	img.src="img1.jpeg";
-	img.alt=text[now-1];
+	// alert("NOW: "+ now);
+	slide.src=val[now-1];
 }
