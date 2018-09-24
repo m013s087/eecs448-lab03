@@ -2,7 +2,7 @@
 function change()
 {
 	let borderColor = document.getElementById("borderColor").value;
-	let Width = document.getElementById("borderWidth").value;
+	let width = document.getElementById("borderWidth").value;
 	let backColor = document.getElementById("backColor").value;
 	let p=document.getElementById("target")
 	p.style.borderStyle="solid"
